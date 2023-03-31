@@ -7,4 +7,8 @@ export class UmpConsentWeb extends WebPlugin implements UmpConsentPlugin {
     console.log('ECHO', options);
     return options;
   }
+
+  async userMessagingPlatform(): Promise<void> {
+    throw this.unimplemented('Not implemented on web.');
+  }
 }
