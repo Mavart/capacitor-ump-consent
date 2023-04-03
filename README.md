@@ -9,6 +9,17 @@ npm install capacitor-ump-consent
 npx cap sync
 ```
 
+## Usage
+```bash
+import { UmpConsent } from 'capacitor-ump-consent';
+
+UmpConsent.userMessagingPlatform().then(value => {
+    //show banner
+    
+  }).catch(error => {
+    // Handle error
+  });
+```
 ## API
 
 <docgen-index>
