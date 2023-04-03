@@ -10,7 +10,7 @@ npx cap sync
 ```
 
 ## Usage
-```bash
+```ts
 import { UmpConsent } from 'capacitor-ump-consent';
 
 UmpConsent.userMessagingPlatform().then(value => {
