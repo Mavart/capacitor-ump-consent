@@ -3,12 +3,9 @@ import { WebPlugin } from '@capacitor/core';
 import type { UmpConsentPlugin } from './definitions';
 
 export class UmpConsentWeb extends WebPlugin implements UmpConsentPlugin {
-  async echo(options: { value: string }): Promise<{ value: string }> {
-    console.log('ECHO', options);
-    return options;
-  }
+ 
 
-  async userMessagingPlatform(): Promise<void> {
+  async userMessagingPlatform(): Promise<{status: string}> {
     throw this.unimplemented('Not implemented on web.');
   }
 }
