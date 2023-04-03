@@ -6,4 +6,6 @@
 CAP_PLUGIN(UmpConsentPlugin, "UmpConsent",
        
            CAP_PLUGIN_METHOD(userMessagingPlatform, CAPPluginReturnPromise);
+           CAP_PLUGIN_METHOD(reset, CAPPluginReturnPromise);
+           CAP_PLUGIN_METHOD(forceForm, CAPPluginReturnPromise);
 )

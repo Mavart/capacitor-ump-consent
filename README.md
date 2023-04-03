@@ -14,6 +14,8 @@ npx cap sync
 <docgen-index>
 
 * [`userMessagingPlatform()`](#usermessagingplatform)
+* [`forceForm()`](#forceform)
+* [`reset()`](#reset)
 
 </docgen-index>
 
@@ -27,6 +29,26 @@ userMessagingPlatform() => Promise<{ status: string; }>
 ```
 
 **Returns:** <code>Promise&lt;{ status: string; }&gt;</code>
+
+--------------------
+
+
+### forceForm()
+
+```typescript
+forceForm() => Promise<{ status: string; }>
+```
+
+**Returns:** <code>Promise&lt;{ status: string; }&gt;</code>
+
+--------------------
+
+
+### reset()
+
+```typescript
+reset() => Promise<void>
+```
 
 --------------------
 
